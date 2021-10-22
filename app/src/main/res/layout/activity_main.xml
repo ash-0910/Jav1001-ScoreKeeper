@@ -102,7 +102,7 @@ Program - MAPD - JAV1001, Lab - 01
                     app:srcCompat="@drawable/minusline"
                     />
 
-
+            <!-- end of 1st column linear layout -->
             </LinearLayout>
 
             <!-- linear layout for 1st rom 2nd column -->
@@ -151,9 +151,10 @@ Program - MAPD - JAV1001, Lab - 01
                     app:srcCompat="@drawable/minusline"
                     />
 
-
+                <!-- end of 2nd column linear layout -->
             </LinearLayout>
 
+            <!-- end of table row -->
         </TableRow>
 
         <!-- radio button group -->
