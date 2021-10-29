@@ -159,8 +159,10 @@ Program - MAPD - JAV1001, Lab - 4.1
 
         <!-- radio button group -->
         <RadioGroup
+            android:id="@+id/pointsgroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checkedButton="@id/rb1point"
             android:gravity="center">
 
             <!-- 1 point radio button -->
