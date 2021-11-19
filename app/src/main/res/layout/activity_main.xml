@@ -24,26 +24,19 @@ Program - MAPD - JAV1001, Lab - 4.1
 
     <!-- textview for the heading name  -->
     <TextView
+
+        style="@style/headerTextvew"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ScoreKeeper"
-        android:gravity="center"
-        android:textSize="50dp"
-        android:textStyle="bold|italic"
-        android:textColor="@color/teal_700"
-        android:textAlignment="center"
         android:layout_marginTop="40dp"/>
 
     <!-- textview for the sport name  -->
     <TextView
+        style="@style/subheaderStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="American Football"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textStyle="bold|italic"
-        android:textColor="@color/teal_700"
-        android:textAlignment="center"
         android:layout_marginBottom="40dp"/>
 
     <!-- table layout -->
@@ -66,12 +59,10 @@ Program - MAPD - JAV1001, Lab - 4.1
 
                 <!-- textview for team A -->
                 <TextView
+                    style="@style/teamHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Team A"
-                    android:textColor="@color/black"
-                    android:textSize="30dp"
-                    android:gravity="center"
                     android:layout_marginBottom="40dp"
                     />
                 <!-- addition button for team A -->
@@ -79,26 +70,26 @@ Program - MAPD - JAV1001, Lab - 4.1
                     android:id="@+id/fbplusteama"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    style="@style/buttonStyle"
                     app:srcCompat="@android:drawable/ic_input_add"
                     />
 
 
                 <!-- score textview -->
                 <TextView
+                    style="@style/scoreStyle"
                     android:id="@+id/teamascore"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textSize="100dp"
-                    android:gravity="center"/>
+                    />
 
                 <!-- minus button for team A -->
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/fbminusteama"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    style="@style/buttonStyle"
                     app:srcCompat="@drawable/minusline"
                     />
 
@@ -114,12 +105,10 @@ Program - MAPD - JAV1001, Lab - 4.1
 
                 <!-- textview for team B -->
                 <TextView
+                    style="@style/teamHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Team B"
-                    android:textColor="@color/black"
-                    android:textSize="30dp"
-                    android:gravity="center"
                     android:layout_marginBottom="40dp"
                     />
 
@@ -128,26 +117,26 @@ Program - MAPD - JAV1001, Lab - 4.1
                     android:id="@+id/fbplusteamb"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    style="@style/buttonStyle"
                     app:srcCompat="@android:drawable/ic_input_add"
                     />
 
 
                 <!-- team B score textview -->
                 <TextView
+                    style="@style/scoreStyle"
                     android:id="@+id/teambscore"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textSize="100dp"
-                    android:gravity="center"/>
+                    />
 
                 <!-- minus button for team B -->
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/fbminusteamb"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
+                    style="@style/buttonStyle"
                     app:srcCompat="@drawable/minusline"
                     />
 
@@ -167,24 +156,28 @@ Program - MAPD - JAV1001, Lab - 4.1
 
             <!-- 1 point radio button -->
                 <RadioButton
+                    style="@style/rbstyles"
                     android:id="@+id/rb1point"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1 Point"/>
             <!-- 2 points radio button -->
                 <RadioButton
+                    style="@style/rbstyles"
                     android:id="@+id/rb2points"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2 Points"/>
             <!-- 3 points radio button -->
                 <RadioButton
+                    style="@style/rbstyles"
                     android:id="@+id/rb3points"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="3 Points"/>
             <!-- 6 points radio button -->
                 <RadioButton
+                    style="@style/rbstyles"
                     android:id="@+id/rb6points"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
